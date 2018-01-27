@@ -4,3 +4,8 @@ spring:
       url: http://localhost:8770/
 server:
   port: 8763
+  
+turbine:
+  aggregator:
+    clusterConfig: main-cluster
+  appConfig: zuul-server,simple-jpa
