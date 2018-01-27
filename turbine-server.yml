@@ -1,4 +1,6 @@
 spring:
   boot:
     admin:
-      url: http://localhost:8770
+      url: http://localhost:8770/
+server:
+  port: 8763
