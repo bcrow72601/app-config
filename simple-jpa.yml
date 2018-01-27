@@ -7,7 +7,7 @@ server:
 info:
   app:
     name: simple-jpa
-    description: Simple JPA app that loads information to an in memory H2 database using Spring Data Rest and JPA
+    description: Simple Spring Data Rest JPA App
     version: 0.0.1
     encoding: UTF-8
     java:
