@@ -1,0 +1,19 @@
+spring:
+  boot:
+    admin:
+      url: http://localhost:8770/
+
+server:
+  port: 8761
+  
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+logging:
+  level:
+    com:
+      netflix:
+        eureka: off
+        discovery: off
