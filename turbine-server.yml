@@ -3,7 +3,7 @@ spring:
     admin:
       url: http://localhost:8770/
 server:
-  port: 8763
+  port: 8585
   
 turbine:
   aggregator:
