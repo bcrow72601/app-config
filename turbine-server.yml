@@ -8,4 +8,4 @@ server:
 turbine:
   aggregator:
     clusterConfig: main-cluster
-  appConfig: zuul-server,simple-jpa
+  appConfig: zuul-server
